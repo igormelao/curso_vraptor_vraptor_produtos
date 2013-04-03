@@ -10,5 +10,10 @@ public class IndexController {
 	public void root() {
 		System.out.println("Meu sistema com vraptor");
 	}
+	
+	@Path("/ajuda")
+	public void ajuda(){
+		System.out.println("Bem vindo a ajuda");
+	}
 
 }
