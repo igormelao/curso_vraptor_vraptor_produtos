@@ -37,10 +37,10 @@ public class ProdutoDao implements RepositorioDeProdutos {
 	}
 
 	private static void populaProdutosIniciais() {
-		PRODUTOS.add(new Produto(1l, "iPod", "tocador de mp3 da apple", 299.90));
-		PRODUTOS.add(new Produto(2l, "iPad", "tablet da apple", 1999.99));
-		PRODUTOS.add(new Produto(3l, "212 for women", "perfume da carolina herrera", 67.80));
-		PRODUTOS.add(new Produto(4l, "Ivete Sangalo Ao Vivo", "cd da cantora", 29.90));
+		PRODUTOS.add(new Produto(1l, "iPod", "tocador de mp3 da apple", 299.90,"branco"));
+		PRODUTOS.add(new Produto(2l, "iPad", "tablet da apple", 1999.99,"preto"));
+		PRODUTOS.add(new Produto(3l, "212 for women", "perfume da carolina herrera", 67.80,"vermelho"));
+		PRODUTOS.add(new Produto(4l, "Ivete Sangalo Ao Vivo", "cd da cantora", 29.90,"rox"));
 	}
 
 	public Produto pegaPorId(Long id) {

@@ -10,6 +10,6 @@
 ${produto.nome } <br />
 ${produto.descricao } <br />
 ${produto.preco } <br />
-
+${produto.cor } <br />
 </body>
 </html>

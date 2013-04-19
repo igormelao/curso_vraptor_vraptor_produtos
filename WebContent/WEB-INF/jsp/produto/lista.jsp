@@ -8,12 +8,14 @@
 <title>Produto Lista</title>
 </head>
 <body>
+	${mensagem}
 	<table>
 		<c:forEach var="produto" items="${produtoList }">
 			<tr>
 				<td>${produto.nome }</td>
 				<td>${produto.descricao }</td>
 				<td>${produto.preco }</td>
+				<td>${produto.cor }</td>
 			</tr>
 		</c:forEach>
 	</table>

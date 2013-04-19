@@ -23,6 +23,10 @@
 		<td><input type="text" name="produto.preco"/></td>
 	</tr>
 	<tr>
+		<td>Cor:</td>
+		<td><input type="text" name="produto.cor"/></td>
+	</tr>
+	<tr>
 		<td><input type="submit" value="Adicionar"/></td>
 	</tr>
 </form>
